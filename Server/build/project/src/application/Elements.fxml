@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="397.0" prefWidth="483.0" style="-fx-background-color: #ffff66;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+<children><Label layoutX="143.0" layoutY="7.0" text="Server connection data:">
+<font>
+<Font name="Courier New" size="12.0" />
+</font></Label><Label layoutX="20.0" layoutY="34.0" text="IP:">
+<font>
+<Font name="Courier New" size="12.0" />
+</font>
+</Label><Label layoutX="216.0" layoutY="69.0" text="RCON Password:">
+<font>
+<Font name="Courier New" size="12.0" />
+</font>
+</Label><TextField id="Field1" fx:id="Field1" layoutX="67.0" layoutY="29.0" prefHeight="25.0" prefWidth="138.0" promptText="for example 192.168.1.1" /><TextField id="Field2" fx:id="Field2" layoutX="330.0" layoutY="64.0" prefHeight="25.0" prefWidth="84.0" promptText="secretpass" /><TextArea id="Area1" fx:id="Area1" layoutX="19.0" layoutY="271.0" prefHeight="112.0" prefWidth="423.0" /><Label layoutX="27.0" layoutY="256.0" text="Console output:">
+<font>
+<Font name="Courier New" size="12.0" />
+</font>
+</Label><TextField id="Field3" fx:id="Field3" layoutX="137.0" layoutY="214.0" /><Label layoutX="11.0" layoutY="219.0" text="Execute Command:">
+<font>
+<Font name="Courier New" size="12.0" />
+</font>
+</Label><Button id="But1" fx:id="But1" layoutX="293.0" layoutY="214.0" mnemonicParsing="false" onAction="#But1Click" text="Run" /><Label layoutX="19.0" layoutY="69.0" text="PORT:">
+<font>
+<Font name="Courier New" size="12.0" />
+</font>
+</Label><TextField id="Field4" fx:id="Field4" layoutX="67.0" layoutY="64.0" prefHeight="25.0" prefWidth="84.0" promptText="27000" /><ComboBox fx:id="changeMap" layoutX="136.0" layoutY="146.0" prefWidth="150.0" /><Label layoutX="16.0" layoutY="151.0" text="Change map:">
+<font>
+<Font name="Courier New" size="12.0" />
+</font>
+</Label><Button id="But1" fx:id="But2" layoutX="293.0" layoutY="146.0" mnemonicParsing="false" onAction="#But2Click" text="Change" /><Label layoutX="16.0" layoutY="184.0" text="Change config:">
+<font>
+<Font name="Courier New" size="12.0" />
+</font>
+</Label><ComboBox fx:id="changeConfig" layoutX="137.0" layoutY="179.0" prefWidth="150.0" /><Button id="But1" layoutX="293.0" layoutY="179.0" mnemonicParsing="false" onAction="#But3Click" text="Change" /><Separator layoutY="124.0" prefHeight="15.0" prefWidth="190.0" /><Separator layoutX="189.0" layoutY="124.0" prefHeight="15.0" prefWidth="208.0" /><Separator layoutY="241.0" prefHeight="15.0" prefWidth="190.0" /><Separator layoutX="190.0" layoutY="241.0" prefHeight="15.0" prefWidth="196.0" /><Separator layoutX="397.0" layoutY="124.0" prefHeight="15.0" prefWidth="116.0" /><Separator layoutX="385.0" layoutY="241.0" prefHeight="15.0" prefWidth="127.0" /><Label layoutX="216.0" layoutY="34.0" text="Server name:">
+<font>
+<Font name="Courier New" size="12.0" />
+</font>
+</Label><TextField id="Field1" fx:id="Field5" layoutX="330.0" layoutY="29.0" prefHeight="25.0" prefWidth="138.0" promptText="for ex. MPHT Server" /><Button layoutX="426.1875" layoutY="64.0" mnemonicParsing="false" onAction="#But4Click" text="Save" /><Label layoutX="19.0" layoutY="101.0" text="Last servers:">
+<font>
+<Font name="Courier New" size="12.0" />
+</font>
+</Label><ComboBox fx:id="lastServers" layoutX="137.0" layoutY="96.0" prefWidth="150.0" /><Button layoutX="296.0" layoutY="96.0" mnemonicParsing="false" onAction="#But5Click" text="Load" />
+</children></AnchorPane>
